@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime state, written outside the plugin by default
+runtime-state.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

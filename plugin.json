@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "seo",
+  "version": "2.5.0",
+  "description": "Comprehensive SEO analysis for any website or business type: full audits, technical SEO, Core Web Vitals, schema, content quality (E-E-A-T), images, sitemaps, local SEO, maps, backlinks, GEO/AI search, hreflang, GSC/PageSpeed/CrUX, clustering, drift monitoring, ecommerce, SXO, and more. Vibe port, fully self-contained in this plugin: 26 skills under skills/ (namespaced seo:seo, seo:seo-audit, ...) and 19 subagents under ai.mistral.vibe/agents/ (config_name seo:seo-technical, ...).",
+  "author": {
+    "name": "AgriciDaniel",
+    "url": "https://github.com/AgriciDaniel"
+  },
+  "license": "MIT",
+  "homepage": "https://claude-seo.md",
+  "repository": "https://github.com/danieldannhofer-gif/vibe-seo-plugin",
+  "keywords": ["seo", "technical-seo", "content-quality", "e-e-a-t", "schema-markup", "core-web-vitals", "local-seo", "geo", "ai-search", "sitemap", "backlinks", "gsc", "crux", "page-speed"],
+  "extensions": {
+    "ai.mistral.vibe": {
+      "schemaVersion": 1,
+      "displayName": "SEO",
+      "toolNamespace": "seo"
+    }
+  }
+}
